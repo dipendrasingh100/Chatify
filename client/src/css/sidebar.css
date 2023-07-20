@@ -1,0 +1,50 @@
+.side-bar{
+    display: inline-block;
+    width: 300px;
+    height: 83vh;
+    border: 1px solid black;
+}
+
+.nav-bar{
+    border-bottom: 1px solid black;
+}
+
+.nav-bar ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.tabs{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.sel-conv{
+    color: rgb(0, 110, 255);
+}
+.sel-cont{
+    color: rgb(0, 110, 255);
+}
+
+.side-container{
+    height: 88%;
+    padding: 10px;
+    overflow: auto;
+}
+
+.text-muted{
+    color: grey;
+}
+
+.new-Btn{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    border-style: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+  

@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { useContacts } from "../contexts/ContactsProvider";
 
 const Contacts = () => {
+  const { contacts } = useContacts();
   return (
     <div>
-      Not Contact Found
+      <ul>
+        {contacts.map((contact) => {
+          return <li key={contact.id}>{contact.name}</li>;
+        })}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Contacts
+export default Contacts;
